@@ -55,13 +55,13 @@ Here’s an example:
 
 ```javascript
 // Load the dotenv package
-require('dotenv').config();
+require("dotenv").config();
 
 // Access environment variables
 const config = {
   apiKey: process.env.API_KEY,
   serverSecret: process.env.SERVER_SECRET,
-  isKalvian: process.env.IS_KALVIAN === 'true',
+  isKalvian: process.env.IS_KALVIAN === "true",
 };
 
 // Export the config object
